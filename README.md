@@ -50,6 +50,16 @@ Columns include:
 - Hashtags
 - Similarity Score
 
+  ## How to Run (Google Colab)
+1. Open `GIVANA_RAG_V3.ipynb` in Google Colab.
+2. Run cells in order:
+   - Crawl products from `/shop/`
+   - Scrape product pages
+   - Chunk + Embeddings + FAISS
+   - LLM caption generation
+   - Export 30-day CSV
+3. Output: `givana_30_day_calendar_LLM_RAG.csv`
+
 ## Future Improvements
 
 - Multi-platform tone adaptation
